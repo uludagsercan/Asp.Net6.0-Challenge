@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace Entity.Concrete
 {
-    [Serializable]
+
     public class Customer:IEntity
     {
         public int CustomerId { get; set; }
