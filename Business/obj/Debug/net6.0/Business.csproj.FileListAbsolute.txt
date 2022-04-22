@@ -12,8 +12,11 @@ C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\Business.Assemb
 C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
 C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
 C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\Business.dll
-C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\refint\Business.dll
 C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\Business.pdb
-C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\ref\Business.dll
 C:\Users\Sercan\source\repos\challenge\Business\bin\Debug\net6.0\Core.dll
 C:\Users\Sercan\source\repos\challenge\Business\bin\Debug\net6.0\Core.pdb
+C:\Users\Sercan\source\repos\challenge\Business\bin\Debug\net6.0\Business.pssym
+C:\Users\Sercan\source\repos\challenge\Business\bin\Debug\net6.0\Business.pspdb
+C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\PostSharp\touch
+C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\PostSharp\AdditionalBuildDependencies.txt
+C:\Users\Sercan\source\repos\challenge\Business\obj\Debug\net6.0\PostSharp\postsharp.app.config

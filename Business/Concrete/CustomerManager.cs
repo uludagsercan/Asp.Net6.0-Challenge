@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.PostSharp;
 using Core.Utilities.Business;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete;
@@ -16,7 +18,7 @@ namespace Business.Concrete
             _customerDal = customerDal;
         }
         
-        
+        [FluentValidationAspect(typeof(CustomerValidator))]
         public IResult Add(Customer customer)
         {
             if (customer.CustomerId!=0)

@@ -10,3 +10,6 @@ C:\Users\Sercan\source\repos\challenge\Entity\obj\Debug\net6.0\Entity.dll
 C:\Users\Sercan\source\repos\challenge\Entity\obj\Debug\net6.0\refint\Entity.dll
 C:\Users\Sercan\source\repos\challenge\Entity\obj\Debug\net6.0\Entity.pdb
 C:\Users\Sercan\source\repos\challenge\Entity\obj\Debug\net6.0\ref\Entity.dll
+C:\Users\Sercan\source\repos\challenge\Entity\bin\Debug\net6.0\Core.dll
+C:\Users\Sercan\source\repos\challenge\Entity\bin\Debug\net6.0\Core.pdb
+C:\Users\Sercan\source\repos\challenge\Entity\obj\Debug\net6.0\Entity.csproj.CopyComplete

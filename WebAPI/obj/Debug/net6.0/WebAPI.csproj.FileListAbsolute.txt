@@ -69,3 +69,13 @@ C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Microsoft.AspNetC
 C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Antlr3.Runtime.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Iesi.Collections.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\NHibernate.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Remotion.Linq.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Remotion.Linq.EagerFetching.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\FluentNHibernate.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\PostSharp.dll
