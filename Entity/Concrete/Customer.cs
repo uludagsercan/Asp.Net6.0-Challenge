@@ -1,5 +1,6 @@
-﻿using Entity.Abstract;
+﻿
 
+using Core.DataAccess.Entity;
 using System.ComponentModel;
 using System.Text.Json.Serialization;
 
@@ -14,5 +15,6 @@ namespace Entity.Concrete
    
         [JsonIgnore]
         public ICollection<Order>? Orders { get; set; }
+        
     }
 }

@@ -97,6 +97,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -230,7 +236,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Sercan\\source\\repos\\challenge\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Sercan\\source\\repos\\challenge\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

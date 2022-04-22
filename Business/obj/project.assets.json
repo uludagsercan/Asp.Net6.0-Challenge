@@ -649,6 +649,9 @@
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4"
+        },
         "compile": {
           "bin/placeholder/Core.dll": {}
         },
@@ -678,6 +681,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Core": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.4"
         },
         "compile": {

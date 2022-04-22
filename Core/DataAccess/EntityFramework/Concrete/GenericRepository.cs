@@ -1,12 +1,13 @@
-﻿using Core.DataAccess.EntityFramework;
+﻿using Core.DataAccess.Entity;
+using Core.DataAccess.EntityFramework.Abstract;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 
-namespace DataAccess.Concrete.EntityFramework
+namespace Core.DataAccess.EntityFramework.Concrete
 {
     public class GenericRepository<TEntity, TContext> : IEntityFrameworkRepository<TEntity>
-        where TEntity : class, new()
+        where TEntity : class, IEntity, new()
         where TContext : DbContext, new()
     {
         public void Add(TEntity entity)
@@ -42,7 +43,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (var context = new TContext())
             {
-              
+
                 return filter == null ? context.Set<TEntity>().ToList() : context.Set<TEntity>().Where(filter).ToList();
             }
         }

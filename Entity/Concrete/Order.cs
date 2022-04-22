@@ -1,5 +1,6 @@
-﻿using Entity.Abstract;
+﻿
 using System.Text.Json.Serialization;
+using Core.DataAccess.Entity;
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 
 
