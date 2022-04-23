@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vUTe4LbBKxRbXFpkNWzbZwY1Tt8X0WDJJ6r4TJwkRxlCzuqD4QFqEtcg6LiJgm72iP0UZg2JsnF6H5jMmM90fw==",
+  "dgSpecHash": "CFVNYE7rS0T5eW9pm9IfzMerhf7L8QCbC5ub2ib2CJwl5rjsZBDHgqY86+5C08z6I/gBD4TSKMH7W9IUwB0WrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sercan\\source\\repos\\challenge\\Business.Tests\\Business.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sercan\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
+    "C:\\Users\\Sercan\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\Sercan\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
+    "C:\\Users\\Sercan\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "C:\\Users\\Sercan\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Sercan\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Sercan\\.nuget\\packages\\fluentnhibernate\\3.1.0\\fluentnhibernate.3.1.0.nupkg.sha512",
