@@ -31,6 +31,41 @@
           }
         }
       },
+      "Autofac/6.3.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Autofac.dll": {
+            "assemblyVersion": "6.3.0.0",
+            "fileVersion": "6.3.0.0"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/7.2.0": {
+        "dependencies": {
+          "Autofac": "6.3.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.0"
+          }
+        }
+      },
+      "Autofac.Extras.DynamicProxy/6.0.1": {
+        "dependencies": {
+          "Autofac": "6.3.0",
+          "Castle.Core": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extras.DynamicProxy.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
+        }
+      },
       "Castle.Core/4.4.1": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -1684,6 +1719,9 @@
       },
       "Business/1.0.0": {
         "dependencies": {
+          "Autofac": "6.3.0",
+          "Autofac.Extensions.DependencyInjection": "7.2.0",
+          "Autofac.Extras.DynamicProxy": "6.0.1",
           "DataAccess": "1.0.0",
           "FluentValidation.AspNetCore": "10.4.0",
           "PostSharp": "6.10.10"
@@ -1740,6 +1778,27 @@
       "sha512": "sha512-ZwCEpLCLZXkjzf1lYEixp9hgVlYYk33ACHn6xjFyVhGRi2BpoYQez0qtatbetdylASWYTG+cGz0CGR4z66JM4w==",
       "path": "antlr3.runtime/3.5.1",
       "hashPath": "antlr3.runtime.3.5.1.nupkg.sha512"
+    },
+    "Autofac/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gO4bli0N8tDnBHzbYktcnbXlmN6T+IT5W+FUGgCUaM6pwwHXIxOPoUGvfGum7sZpJJgfQNgjFFv80ZPuARgRdA==",
+      "path": "autofac/6.3.0",
+      "hashPath": "autofac.6.3.0.nupkg.sha512"
+    },
+    "Autofac.Extensions.DependencyInjection/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S2Jor8pTV+8QSs96ENq/FhGdnrWsntGs93z0OXYlIivUWGPNXQHNCjFPfSBeBlHClvJFEXMvlkY32bAKy2YkPg==",
+      "path": "autofac.extensions.dependencyinjection/7.2.0",
+      "hashPath": "autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512"
+    },
+    "Autofac.Extras.DynamicProxy/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+ulCOXUjbJ5dljBPZf3gRxQNPRGqg/h1cNTZ4SpXK3qiamTfRsW3gXs2w/IJ+CIDmHrFGYXLqzNd5etvzwB8kA==",
+      "path": "autofac.extras.dynamicproxy/6.0.1",
+      "hashPath": "autofac.extras.dynamicproxy.6.0.1.nupkg.sha512"
     },
     "Castle.Core/4.4.1": {
       "type": "package",

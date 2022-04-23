@@ -9,10 +9,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Aspects.PostSharp
+namespace Core.Aspects.PostSharp.ValidationAspects.FluentValidation
 {
     [OnMethodBoundaryAspectConfiguration(SerializerType = typeof(MsilAspectSerializer))]
-    public class FluentValidationAspect:OnMethodBoundaryAspect
+    public class FluentValidationAspect : OnMethodBoundaryAspect
     {
         private Type _validatorType;
 

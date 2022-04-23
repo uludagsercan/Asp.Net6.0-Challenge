@@ -152,3 +152,6 @@ C:\Users\Sercan\source\repos\challenge\Business.Tests\obj\Debug\net6.0\refint\Bu
 C:\Users\Sercan\source\repos\challenge\Business.Tests\obj\Debug\net6.0\Business.Tests.pdb
 C:\Users\Sercan\source\repos\challenge\Business.Tests\obj\Debug\net6.0\Business.Tests.genruntimeconfig.cache
 C:\Users\Sercan\source\repos\challenge\Business.Tests\obj\Debug\net6.0\ref\Business.Tests.dll
+C:\Users\Sercan\source\repos\challenge\Business.Tests\bin\Debug\net6.0\Autofac.dll
+C:\Users\Sercan\source\repos\challenge\Business.Tests\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Sercan\source\repos\challenge\Business.Tests\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll

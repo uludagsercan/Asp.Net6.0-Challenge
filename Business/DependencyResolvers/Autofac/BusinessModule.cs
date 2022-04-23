@@ -28,6 +28,7 @@ namespace Business.DependencyResolvers.Autofac
 
             builder.RegisterType(typeof(IQueryableRepository<>)).As(typeof(EfQueryableRepository<>));
             builder.RegisterType<DbContext>().As<ChallengeContext>();
+
         }
     }
 }

@@ -1,12 +1,14 @@
 ﻿using Business.Abstract;
 using Business.ValidationRules.FluentValidation;
-using Core.Aspects.PostSharp;
+using Core.Aspects.PostSharp.TransactionAspects;
+using Core.Aspects.PostSharp.ValidationAspects.FluentValidation;
 using Core.Utilities.Business;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entity.Concrete;
 using Entity.Concrete.Dtos;
+using System.Transactions;
 
 namespace Business.Concrete
 {
@@ -77,6 +79,31 @@ namespace Business.Concrete
                 return new SuccessDataResult<ICollection<CustomersWithOrderDto>>(result,"Sipariş bilgisi olmayan müşteriler listelendi.");
             }
             return new ErrorDataResult<ICollection<CustomersWithOrderDto>>("Tüm müşterilerin sipariş bilgisi mevcuttur.");
+        }
+
+        //Transaction kullanımına örnek olarak oluşturuldu.
+      
+        public void TransactionOperation(Customer c1, Customer c2)
+        {
+            using (TransactionScope scope = new TransactionScope())
+            {
+                try
+                {
+                    _customerDal.Add(c1);
+                    _customerDal.Update(c2);
+                    scope.Complete();
+                }
+                catch
+                {
+                    scope.Dispose();
+                }
+            }
+        }
+        [TransactionScopeAspect]
+        public void TransactionOperation2(Customer c1, Customer c2)
+        {
+            _customerDal.Add(c1);
+            _customerDal.Update(c2);
         }
 
         public IResult Update(Customer customer)

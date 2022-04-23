@@ -14,5 +14,8 @@ namespace Business.Abstract
         IDataResult<ICollection<CustomerByNameDto>> GetCustomerByNameDtos(string name);
         IResult Delete(int id);
         IResult Update(Customer customer);
+
+        void TransactionOperation(Customer c1, Customer c2);
+        void TransactionOperation2(Customer c1, Customer c2);
     }
 }

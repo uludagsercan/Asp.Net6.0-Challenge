@@ -79,3 +79,7 @@ C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\FluentValidation.
 C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\PostSharp.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Autofac.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\Sercan\source\repos\challenge\WebAPI\bin\Debug\net6.0\Castle.Core.dll
