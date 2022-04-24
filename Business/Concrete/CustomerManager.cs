@@ -1,7 +1,11 @@
 ﻿using Business.Abstract;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.PostSharp.CacheAspects;
+using Core.Aspects.PostSharp.LogAspects;
 using Core.Aspects.PostSharp.TransactionAspects;
 using Core.Aspects.PostSharp.ValidationAspects.FluentValidation;
+using Core.CrossCuttingConcerns.Caching.Microsoft;
+using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 using Core.Utilities.Business;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete;
@@ -21,6 +25,7 @@ namespace Business.Concrete
         }
         
         [FluentValidationAspect(typeof(CustomerValidator))]
+        [CacheRemoveAspect(typeof(MemoryCacheManager))]
         public IResult Add(Customer customer)
         {
             if (customer.CustomerId!=0)
@@ -42,7 +47,8 @@ namespace Business.Concrete
             _customerDal.Delete(customer);
             return new SuccessResult("Silme işlemi başarılıdır.");
         }
-
+        [LogAspects(typeof(DatabaseLogger))]
+        [LogAspects(typeof(FileLogger))]
         public IDataResult<ICollection<Customer>> GetAll()
         {
             var result = _customerDal.GetAll();
@@ -59,7 +65,7 @@ namespace Business.Concrete
             var result = _customerDal.Get(x => x.CustomerId == id);
             return new SuccessDataResult<Customer>(result,"Müşteri bulundu");
         }
-
+        [CacheAspect(typeof(MemoryCacheManager))]
         public IDataResult<ICollection<CustomerByNameDto>> GetCustomerByNameDtos(string name)
         {
             

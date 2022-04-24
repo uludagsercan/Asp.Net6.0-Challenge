@@ -11,10 +11,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.4" />
     <PackageReference Include="NHibernate" Version="5.3.11" />
     <PackageReference Include="PostSharp" Version="6.10.10" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Aspects\PostSharp\TransactionAspects\" />
+    <PackageReference Include="System.Runtime.Caching" Version="6.0.0" />
   </ItemGroup>
 
 </Project>

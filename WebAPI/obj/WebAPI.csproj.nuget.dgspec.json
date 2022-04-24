@@ -142,13 +142,25 @@
               "target": "Package",
               "version": "[6.0.4, )"
             },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "NHibernate": {
               "target": "Package",
               "version": "[5.3.11, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "PostSharp": {
               "target": "Package",
               "version": "[6.10.10, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
